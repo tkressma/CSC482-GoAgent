@@ -144,6 +144,6 @@ func storeAndPoll(pollingRateSecs time.Duration) {
 
 func main() {
 	for true {
-		storeAndPoll(10)
+		storeAndPoll(43200)
 	}
 }
