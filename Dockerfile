@@ -28,9 +28,9 @@ COPY --from=build /src/main ./
 # Add environment variables
 # ENV ...
 ENV AWS_REGION=us-east-1
-ENV AWS_ACCESS_KEY_ID=AKIA34XNLPJYLB5S3VOQ
-ENV AWS_SECRET_ACCESS_KEY=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
-ENV LOGGLY_TOKEN=54653701-3393-48ab-b29d-3a9aee7784ab
+ENV AWS_ACCESS_KEY_ID=
+ENV AWS_SECRET_ACCESS_KEY=
+ENV LOGGLY_TOKEN=
 
 # Check results
 RUN env && pwd && find .
